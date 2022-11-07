@@ -5,7 +5,7 @@ import requests
 
 
 
-def load_destination(destinationName, destinationService, token_url, debugMode = False):
+def load_destination(destinationName, destinationService, debugMode = False):
     env = AppEnv()
     destination_service = env.get_service(name = destinationService)
 
@@ -13,6 +13,7 @@ def load_destination(destinationName, destinationService, token_url, debugMode =
     id = destination_credentials["clientid"]
     secret= destination_credentials["clientsecret"]
     url = destination_credentials["url"]
+    uri = url = destination_credentials["uri"]
     JWT_TOKEN_URL = url + "/oauth/token"
 
     byte_string = id + ":" + secret
@@ -26,7 +27,7 @@ def load_destination(destinationName, destinationService, token_url, debugMode =
 
     #Get token for Default service keys
     headers= { 'Authorization': 'Bearer ' + token }
-    r = requests.get(token_url + '/destination-configuration/v1/destinations/'+destinationName, headers=headers)
+    r = requests.get(uri + '/destination-configuration/v1/destinations/'+destinationName, headers=headers)
     token = r.json()
 
     if debugMode == True:
