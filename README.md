@@ -2,6 +2,14 @@
 
 This python package allows you easily retrieve destination information from the SAP BTP
 
+### Usage
+
+```python
+from cloudconnect import load_destination
+
+destination = load_destination(destinationname, destinationService, debugMode)
+````
+
 
 ### Installation
 To install the package execute the following command
