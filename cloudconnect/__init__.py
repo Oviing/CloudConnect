@@ -1,1 +1,1 @@
-from .CloudConnect import connector
+from .cloudConnect import connector
