@@ -1,1 +1,1 @@
-from .cloudConnect import connector
+from .cloudconnect import load_destination
