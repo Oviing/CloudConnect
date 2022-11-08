@@ -5,7 +5,7 @@ This python package allows you easily retrieve destination information from the 
 ### Usage
 
 ```python
-from cloudconnect import load_destination
+from cloudconnect2 import load_destination
 destinationName = "ABC API Name"
 destinationService = "Service"
 debugMode = False
