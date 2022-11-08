@@ -1,4 +1,4 @@
-# CloudConnect [![cloudconnect](https://github.com/Oviing/CloudConnect/actions/workflows/python-publish.yml/badge.svg?event=deployment)](https://github.com/Oviing/CloudConnect/actions/workflows/python-publish.yml)
+# CloudConnect [![cloudconnect2](https://github.com/Oviing/CloudConnect/actions/workflows/python-publish.yml/badge.svg?event=deployment)](https://github.com/Oviing/CloudConnect/actions/workflows/python-publish.yml)
 
 This python package allows you easily retrieve destination information from the SAP BTP
 
