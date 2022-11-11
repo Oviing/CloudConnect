@@ -24,3 +24,7 @@ If you are using jupyter notebook you have to use instead the following command
 ```
 !python3 -m pip install git+https://github.com/Oviing/CloudConnect.git
 ```
+Or easy via pip
+```
+pip install cloudconnect2
+```
