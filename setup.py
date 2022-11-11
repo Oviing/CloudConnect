@@ -8,7 +8,7 @@ long_description = (this_directory / "README.md").read_text()
 setup(
     name='cloudconnect2',
     packages=find_packages(include=['cloudconnect2']),
-    version='0.0.1',
+    version='0.1.0',
     description='A package to connect retrieve the API credentials in SAP BTP',
     long_description=long_description,
     long_description_content_type='text/markdown',
